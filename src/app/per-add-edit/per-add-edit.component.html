@@ -1,0 +1,39 @@
+<div mat-dialog-title>
+    <h2>Agregar nuevo personaje</h2>
+</div>
+<p></p>
+<form [formGroup]="perForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Codigo</mat-label>
+                <input matInput type="number" formControlName="codigo">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre</mat-label>
+                <input matInput type="text" formControlName="nombre">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Ciudad</mat-label>
+                <input matInput type="text" formControlName="ciudad">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Poder</mat-label>
+                <input matInput type="number" formControlName="poder">
+            </mat-form-field>
+        </div>
+    </div>
+
+<div mat-dialog-actions class="action">
+    <button mat-raised-button type="button" mat-dialog-close="false">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Actualizar':'Guardar'}}</button>
+    
+</div>
+
+</form>

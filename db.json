@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "personajes": [
+    {
+      "codigo": 1,
+      "nombre": "Goku",
+      "ciudad": "Machala",
+      "poder": 500,
+      "id": 1
+    },
+    {
+      "codigo": 2,
+      "nombre": "Tao paipai",
+      "ciudad": "Z",
+      "poder": 211,
+      "id": 2
+    },
+    {
+      "codigo": 1,
+      "nombre": "bulma",
+      "ciudad": "z",
+      "poder": 11,
+      "id": 3
+    }
+  ]
+}

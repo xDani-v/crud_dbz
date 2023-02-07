@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .main-dody{
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: 0 auto;
+    mat-form-field{
+      width: 100%;
+    }
+  }
